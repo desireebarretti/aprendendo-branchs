@@ -1,11 +1,13 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+   
 }
 
 body {
     background-color: #444;
     color: #444;
+    text-align: justify;
+    text-indent: 15px;
 }
 
 main {
@@ -14,4 +16,30 @@ main {
     margin: auto;
     box-sizing: 3px 3px 5px black;
     padding: 10px;
+}
+
+img {
+    width: 100px;
+}
+
+.lado {
+    float: right;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a > p {
+    border: 3px solid black;
+    margin: 20px;
+    padding: 10px;
+    background-color: #76767641;
+}
+
+a > p:hover {
+    background-color: rgba(241, 165, 241, 0.412);
+    color: rgb(94, 94, 94);
 }
